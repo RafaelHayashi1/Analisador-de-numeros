@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="carregar()">
+    <header>
+        <h1>Analisador de números</h1>
+    </header>
+
+    <section>
+        <div id="msg">
+            <labe>Número (entre 1 e 100)</label>
+            <input type="number" min="1" max="100" id="fnum">
+            <input type="button" onclick="adicionar()" value="Adicionar"><br><br>
+            <select name="flista" id="flista" size="6"></select><br>
+            <input type="button" value="finalizar" onclick="finalizar()">
+            <div id="res">
+                
+            </div>
+    </section>
+
+    <footer>
+        <p>&copy;TesteJs</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
